@@ -13,11 +13,11 @@ h6 {
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 p,
@@ -45,4 +45,18 @@ div.contact {
     justify-content: center;
     flex-direction: column;
     margin-bottom: 2em;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    p,
+    span,
+    a {
+        font-size: 1em;
+    }
 }
