@@ -1,35 +1,42 @@
-html,
-body {
-    height: 100%;
-}
 body {
     margin: 0;
-    height: 100%;
-    width: 100%;
-    padding: 0;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+p,
+span,
+a {
+    font-family: 'David Libre', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+div.content {
+    margin: 0;
     align-items: center;
     display: flex;
-    font-family: 'David Libre', sans-serif;
     justify-content: start;
     flex-direction: column;
     text-align: center;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
 }
 
 div.contact {
-    margin: 0 auto;
-    align-items: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 10px;
+    margin-bottom: 2em;
 }
