@@ -28,7 +28,12 @@ div.content {
   justify-content: start;
   flex-direction: column;
   width: 60%;
-  margin: 10% auto;
+  margin: 2em auto;
+}
+
+.photo {
+  object-fit: cover;
+  width: 50%;
 }
 
 @media (min-width: 768px) {
@@ -42,5 +47,8 @@ div.content {
   span,
   a {
     font-size: 1em;
+  }
+  .photo {
+    width: 30%;
   }
 }
