@@ -65,15 +65,15 @@ div.content {
   display: flex;
   justify-content: start;
   flex-direction: column;
-  width: 60%;
-  max-width: 800px;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 2em 3em 4em;
 }
 
 .photo {
   object-fit: cover;
-  width: 50%;
+  width: 30%;
   margin-bottom: 2em;
 }
 
