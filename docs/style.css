@@ -22,12 +22,21 @@ h6 {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 2em 3em;
   position: sticky;
   top: 0;
   background: #fff;
   z-index: 100;
+  border-bottom: 2px solid #000;
+}
+
+.header-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .logo {
