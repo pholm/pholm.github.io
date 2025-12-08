@@ -55,6 +55,14 @@ h6 {
   font-size: 1em;
   color: #000;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.mail-icon {
+  flex-shrink: 0;
+  vertical-align: middle;
 }
 
 .contact a:hover {
